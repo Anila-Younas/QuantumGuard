@@ -1,57 +1,105 @@
-# OS-Simulator
+# Quantum Guard
 
-User Interface simulating the major concepts of Operating Systems.
+Quantum Guard is a web-based Operating Systems simulator designed to help students understand and visualize core OS concepts through interactive and practical demonstrations. The project focuses on simulating fundamental algorithms and mechanisms commonly taught in operating systems courses.
 
-### Simulations Done
-- System Calls (Terminal based GUI)
-- Socket Programming 
-- CPU Scheduling 
-- Process Synchronization
-- Disk Scheduling
+The application is built using Node.js and Express, providing a modular backend with clear API endpoints and an interactive frontend for visualization. It runs locally and is intended purely for educational and academic use.
+
+## Features
+
+### CPU Scheduling Algorithms
+The CPU Scheduling module supports the following algorithms:
+
+- First Come First Served (FCFS)  
+  Endpoint: `/cpu_scheduling/fcfs`
+
+- Shortest Job First (SJF)
+  - Non-preemptive: `/cpu_scheduling/sjf-nonpreemptive`
+  - Preemptive: `/cpu_scheduling/sjf-preemptive`
+
+- Round Robin Scheduling  
+  Endpoint: `/cpu_scheduling/round_robin`
+
+These algorithms allow users to observe scheduling behavior, waiting time, turnaround time, and execution order.
+
+### Additional Operating System Simulations
+
 - Memory Management
-- Page Replacement
-- File Allocation
+- Disk Scheduling
+- Page Replacement Algorithms
+- Process Synchronization Problems
+- File Allocation Techniques
+- Socket Programming Demonstrations
 
-### Extra Algorithms Simulated
+### Advanced Implementations
+
 - Multilevel Queue Scheduling
 - Sleeping Barber Problem
 - Second Chance Page Replacement Algorithm
 
-### Installation Instructions
-<b>Ubuntu</b>
-- **Step1:-** `sudo apt-get update`
-- **Step2:-** `sudo apt-get upgrade`
-- **Step3:-** `curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -`
-- **Step4:-** `sudo apt-get install -y nodejs`
-- **Step5:-** Go to Terminal, type `npm -v` and then `node -v`, verify that installation is successful.
+### Interactive Terminal Interface
+Quantum Guard includes a terminal-based GUI that simulates system calls, allowing users to interact with OS-level operations in a controlled environment.
 
-<b>Windows</b>
-- **Step1:-** Download Windows Installer (.msi) from [here](https://nodejs.org/en/download/)
-- **Step2:-** Run the installer(.msi file downloaded in Step1)
-- **Step3:-** Click Next, Accept the License Agreement
-- **Step4:-** Let the default Destination Folder be as it is, Click Next
-- **Step5:-** In Custom Setup, select npm package manager, Click Next
-- **Step6:-** Click Install, and then Restart your PC
-- **Step7:-** Go to Command Prompt, type `npm -v` and then `node -v`, verify that installation is successful.
+### Real-Time Communication
+Socket programming concepts are demonstrated using real-time chat functionality implemented with Socket.IO.
 
-### How to Run?
-- Open git bash
-- git clone https://github.com/mishal23/os-simulator.git
-- cd os-simulator
-- `npm install` (To install all the dependency packages)
-- `npm start`
-- Go to Browser and type http://localhost:3000
+## Technology Stack
 
-### Contributors
-- M. R Ashrit ([@Ashrit26](https://github.com/Ashrit26))
-- Bobby Patil ([@bobbypt05](https://github.com/bobbypt05))
-- Himanshu Nagdive ([@himanshu1708](https://github.com/himanshu1708))
-- Mahir Jain ([@mahirjain25](https://github.com/mahirjain25))
-- Mehnaz Yunus ([@mehnazyunus](https://github.com/mehnazyunus))
-- Mishal Shah ([@mishal23](https://github.com/mishal23))
-- Mohit Bhasi ([@m0bi5](https://github.com/m0bi5))
-- Namrata Ladda ([@Namrata7199](https://github.com/Namrata7199))
-- Nihal Haneef ([@Nihalh55](https://github.com/Nihalh55))
-- Palak Singhal ([@smarty1palak](https://github.com/smarty1palak))
+- Backend: Node.js, Express.js
+- Frontend: HTML, CSS, JavaScript
+- Real-Time Communication: Socket.IO
+- Templating Engine: EJS / Jade
+- Environment: Localhost
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+## Installation and Setup
+
+1. Clone the repository:
+```
+
+git clone [https://github.com/your-username/quantum-guard.git](https://github.com/your-username/quantum-guard.git)
+
+```
+
+2. Navigate to the project directory:
+```
+
+cd quantum-guard
+
+```
+
+3. Install dependencies:
+```
+
+npm install
+
+```
+
+4. Start the server:
+```
+
+npm start
+
+```
+
+5. Open your browser and visit:
+```
+
+[http://localhost:3000](http://localhost:3000)
+
+```
+
+## Usage
+
+Quantum Guard is intended for learning and demonstration purposes. Users can interact with different OS modules, input custom data, and observe how algorithms behave under various conditions.
+
+## Project Purpose
+
+This project was developed as part of an Operating Systems course to provide a practical and visual understanding of OS concepts that are often difficult to grasp through theory alone.
+
+## License
+
+This project is for academic use only.
+```
+
+---
+
+
