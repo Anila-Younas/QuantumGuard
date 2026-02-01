@@ -50,6 +50,10 @@ Socket programming concepts are demonstrated using real-time chat functionality 
 - Templating Engine: EJS / Jade
 - Environment: Localhost
 
+### Deadlock Detection and Prevention
+- Banker’s Algorithm simulation for safe resource allocation
+- Demonstrates deadlock detection and resolution strategies
+
 ## Installation and Setup
 
 1. Clone the repository:
@@ -94,12 +98,5 @@ Quantum Guard is intended for learning and demonstration purposes. Users can int
 ## Project Purpose
 
 This project was developed as part of an Operating Systems course to provide a practical and visual understanding of OS concepts that are often difficult to grasp through theory alone.
-
-## License
-
-This project is for academic use only.
-```
-
----
 
 
