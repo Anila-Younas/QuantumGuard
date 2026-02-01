@@ -21,6 +21,10 @@ The CPU Scheduling module supports the following algorithms:
 
 These algorithms allow users to observe scheduling behavior, waiting time, turnaround time, and execution order.
 
+### Deadlock Detection and Prevention
+- Banker’s Algorithm simulation for safe resource allocation
+- Demonstrates deadlock detection and resolution strategies
+
 ### Additional Operating System Simulations
 
 - Memory Management
@@ -49,10 +53,6 @@ Socket programming concepts are demonstrated using real-time chat functionality 
 - Real-Time Communication: Socket.IO
 - Templating Engine: EJS / Jade
 - Environment: Localhost
-
-### Deadlock Detection and Prevention
-- Banker’s Algorithm simulation for safe resource allocation
-- Demonstrates deadlock detection and resolution strategies
 
 ## Installation and Setup
 
