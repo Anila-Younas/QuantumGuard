@@ -59,7 +59,7 @@ Socket programming concepts are demonstrated using real-time chat functionality 
 1. Clone the repository:
 ```
 
-git clone [https://github.com/your-username/quantum-guard.git](https://github.com/your-username/quantum-guard.git)
+git clone https://github.com/Anila-Younas/QuantumGuard
 
 ```
 
